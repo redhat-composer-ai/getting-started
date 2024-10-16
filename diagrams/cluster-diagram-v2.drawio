@@ -1,0 +1,97 @@
+<mxfile host="65bd71144e">
+    <diagram id="2sebiGc540611mgCGR5V" name="Page-1">
+        <mxGraphModel dx="997" dy="1891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="OpenShift Container Platform" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="-520" width="900" height="900" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Operators" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="40" width="660" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="OpenShift GitOps" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="200" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="OpenShift Pipelines" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="OpenShift AI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="OpenShift Serverless" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="OpenShift ServiceMesh" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Authorino" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="490" y="280" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="NVIDIA GPU Operator" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Node Feature Discovery" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="640" y="140" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="AWS Infastructure" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="400" width="900" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="control-plane, master, worker&lt;br&gt;m6a.4xlarge&lt;br&gt;(16 Cores / 64GiB)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="445" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="worker&lt;br&gt;m6a.4xlarge&lt;br&gt;(16 Cores / 64Gib)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="440" y="445" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="gpu, worker&lt;br&gt;g5.2xlarge&lt;br&gt;(8 Cores / 32GiB / 1xA10G)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="670" y="445" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="composer-ai-gitops ns" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="110" y="-440" width="190" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="ArgoCD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="-390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="composer-ai-llms" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="-440" width="190" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="vllm&lt;br&gt;(llama?)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="-390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="minio or obc?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="-310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="composer-ai-apps" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="530" y="-440" width="190" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="ui" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="-390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="quarkus-llm-router" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="-310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="vector-database&lt;br&gt;(weaviate)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="-150" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="composer-ai-pipelines" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="740" y="-440" width="190" height="450" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="dspa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="-390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="minio or obc?" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="775" y="-310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="Document &lt;br&gt;Ingestion &lt;br&gt;Pipeline" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="780" y="-220" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Phoenix" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="-70" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="llm-router-db&lt;br&gt;(mongo-db)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="565" y="-230" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
