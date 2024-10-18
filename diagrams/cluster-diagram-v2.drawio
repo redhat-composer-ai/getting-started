@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2sebiGc540611mgCGR5V" name="Page-1">
-        <mxGraphModel dx="2221" dy="1876" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1899" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -13,7 +13,7 @@
                 <mxCell id="3" value="Operators" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="-90" y="40" width="1020" height="320" as="geometry"/>
                 </mxCell>
-                <mxCell id="4" value="OpenShift GitOps" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="4" value="OpenShift GitOps" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" parent="1" vertex="1">
                     <mxGeometry x="30" y="65" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="5" value="OpenShift Pipelines" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -40,10 +40,10 @@
                 <mxCell id="12" value="AWS Infastructure" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
                     <mxGeometry x="-140" y="400" width="1110" height="150" as="geometry"/>
                 </mxCell>
-                <mxCell id="13" value="control-plane, master&lt;br&gt;c6i.2xlarge&lt;br&gt;(8 Cores / 16GiB)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="13" value="control-plane, master&lt;br&gt;c6i.2xlarge&lt;br&gt;(8 Cores / 16GiB)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" parent="1" vertex="1">
                     <mxGeometry x="-85" y="445" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" parent="1" vertex="1">
                     <mxGeometry x="360" y="427.5" width="180" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="composer-ai-gitops ns" style="rounded=0;whiteSpace=wrap;html=1;align=right;verticalAlign=top;" parent="1" vertex="1">
@@ -88,14 +88,23 @@
                 <mxCell id="31" value="llm-router-db&lt;br&gt;(mongo-db)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="565" y="-180" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="38" value="worker x 2&lt;br&gt;m6a.4xlarge&lt;br&gt;(16 Cores / 64Gib)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                <mxCell id="38" value="worker x 2&lt;br&gt;m6a.4xlarge&lt;br&gt;(16 Cores / 64Gib)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" vertex="1" parent="1">
                     <mxGeometry x="350" y="442.5" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="39" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+                <mxCell id="39" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=#CC0000;fillColor=#FFF2F2;" vertex="1" parent="1">
                     <mxGeometry x="720" y="435" width="180" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="15" value="gpu, worker (autoscaled)&lt;br&gt;g5.2xlarge&lt;br&gt;(8 Cores / 32GiB / 1xA10G)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="15" value="gpu, worker (autoscaled)&lt;br&gt;g5.2xlarge&lt;br&gt;(8 Cores / 32GiB / 1xA10G)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" parent="1" vertex="1">
                     <mxGeometry x="710" y="445" width="180" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Legend" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=default;align=left;verticalAlign=top;" vertex="1" parent="1">
+                    <mxGeometry x="-140" y="580" width="190" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Demo Platform Managed" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#CC0000;fillColor=#FFF2F2;" vertex="1" parent="1">
+                    <mxGeometry x="-110" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Composer Managed" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="-110" y="690" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
