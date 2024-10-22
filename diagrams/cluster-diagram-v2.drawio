@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="2sebiGc540611mgCGR5V" name="Page-1">
-        <mxGraphModel dx="1899" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
+        <mxGraphModel dx="2220" dy="1875" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -108,6 +108,9 @@
                 </mxCell>
                 <mxCell id="43" value="composer-ai-gitops Managed" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
                     <mxGeometry x="-340" y="-270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="&lt;font style=&quot;font-size: 32px;&quot;&gt;Composer AI&lt;br&gt;&lt;/font&gt;demo.redhat.com implementation" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;strokeWidth=2;" vertex="1" parent="1">
+                    <mxGeometry x="230" y="-550" width="100" height="40" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
